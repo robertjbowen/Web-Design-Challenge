@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Our rows function in containers (grid created). -->
+  <div class="container">
+
+    
+<!-- Header Row -->
+    <div class="row">
+    	<div class="col-md-12">
+    		<h1>Lattitude vs. X</h1>
+    	</div>
+    </div>
+
+<!--1st Row -->
+    <div class="row">
+    	<div class="col-md-4">
+    		<img class="align-self-start mr-3" src="Resources\images\Picture1.png" 
+    		 class="img-responsive" alt="Dot Plot of City Lattitude versus its Maximum Recorded Temperature" 
+             width="288" height="195" />
+        </div>
+        <div class="col-md-4">
+            <p>"This project was to create a random list of 500+ cities from across the globe and conduct an API data call to gather current weather data for those cities. Then clean and analyze the weather data to generate a series of scatter plots and regression models in order to make data based observations about global weather patterns.</p>
+		</div>
+    	<div class="col-md-4">
+    		<div class="ui animated fade button" tabindex="0">
+  				<div class="hidden content">Max Temperature</div>
+  				<div class="visible content">
+    				<img src="Resources\images\Picture1.png" 
+             		class="img-responsive" alt="Responsive image" 
+             		width="144" height="97.5" />
+  				</div>
+			</div>
+		    <nav class="navbar">
+		      <ul>
+		        <li>
+		          <a href="#">Max Temperature</a>
+		          <img src="Resources\images\Picture1.png" 
+             		class="img-responsive" alt="Responsive image" 
+             		width="130" height="130" />
+		        </li>
+		        <li>
+		          <a href="#">Humidity</a>
+		        </li>
+		        <li>
+		          <a href="#">Cloudiness</a>
+		        </li>
+		        <li>
+		          <a href="#">Wind Speed</a>
+		        </li>
+		      </ul>
+		      <select id="nav-select">
+		        <option value="maxTemp">Max Temperature</option>
+		        <option value="humidity">Humidity</option>
+		        <option value="cloudiness">Cloudiness</option>
+		        <option value="windSpeed">Wind Speed</option>
+		      </select>
+		      <div class="clearfix"></div>
+		    </nav>
+		</div>
+	</div>
+<!--2nd Row -->
+    <div class="row">
+    	<div class="col-md-8">
+    		<h5>Design concept:</h5>
+    		<ol>
+				<li>The project begins with generating 1500 random latitude and longitude values and using citypy to determine the nearest cities to those coordinates and appending them to a list (duplicate cities are skipped).</li>
+
+				<li>The program then creates a series of successive API calls to openweathermap.org to collect the weather data for each of the cities into a list (weather_data) - (if a city is not found or is missing key weather data values, it is skipped).</li>
+
+				<li>The list of weather data is read into a dataframe (city_data) and output to cities.csv in the output_data directory.</li>
+
+				<li>Summary data is calculated for the DataFrame and any cities with a humidity above 100% are identified and deleted as a new DataFrame is created (clean_city_data).</li>
+
+				<li>The clean_city_data is plotted into a series of scatter plots of weather variables vs. latitude and analyzed.</li> 
+			</ol>
+		</div>
+	</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
