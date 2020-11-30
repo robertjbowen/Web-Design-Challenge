@@ -5,18 +5,31 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 h3 {
   font-size: 30px;
+  color:#007bff;
 }
 
 /* Giving our navbar some padding and a background color */
-.navbar {
-  padding: 10px;
-  background: #5191fd;
+.row {
+  padding: 15px;
+  background: #fff;
 }
+
+.main_image {
+   width: 288px;
+   height: 195px; 
+}
+
+.thumbnail {
+  padding: 10px;
+  height: 97.5px;
+  width: 144px;
+}
+
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
@@ -44,7 +57,7 @@ h3 {
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
-  padding: 60px;
+  padding: 20px;
   margin: 0;
   color: #000;
   text-align: center;
@@ -62,10 +75,15 @@ h3 {
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 480px) {
-  .navbar li {
+@media (max-width: 1000px) {
+  .row {
     padding: 10px;
   }
+
+  .main_image {
+   width: 144px;
+   height: 97.5px; 
+}
 
   .post {
     margin-right: 30px;
