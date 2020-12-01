@@ -1,51 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Weather Data</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="Resources/assets/reset.css">
-  <link rel="stylesheet" href="Resources/assets/style.css">
-</head>
-<body>
-
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
-  <nav class="navbar">
-      <ul>
-        <li>
-          <a href="index.html" class="btn btn-outline-dark">Home</a>
-        </li>
-        <li>
-          <a for="nav-select" class="btn btn-outline-dark">Plots</a>
-        </li>
-        <li>
-          <a href="comparison.html" class="btn btn-outline-dark">Comparisons</a>
-        </li>
-        <li>
-          <a href="WeatherData.html" class="btn btn-outline-dark">Data</a>
-        </li>
-      </ul>
-      <select id="nav-select">
-        <option value="">Plots</option>
-        <option value="tempVis.html">Max Temp</option>
-        <option value="humidVis.html">Humidity</option>
-        <option value="cloudVis.html">Cloudiness</option>
-        <option value="windVis.html">Wind Speed</option>
-      </select>
-      <div class="clearfix"></div>
-    </nav>
-    
-<!-- Header Row -->
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Data</h1>
-        <p>The following data table includes all of the data used for plotting during this project</p><br>
-      </div>
-    </div>
-    <div class="row">
-      <div class="table_responsive">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -6772,12 +6724,3 @@
     </tr>
   </tbody>
 </table>
-    </div>
-  </div>
-</div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
- </body>
-</html>
