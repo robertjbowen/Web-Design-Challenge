@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Lattitude vs. Cloudiness</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="Resources/assets/reset.css">
   <link rel="stylesheet" href="Resources/assets/style.css">
 </head>
 <body>
@@ -12,29 +13,51 @@
   <!-- Our rows function in containers (grid created). -->
   <div class="container">
 
-    
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="index.html" class="btn btn-outline-dark">Home</a>
+        </li>
+        <li>
+          <a for="nav-select" class="btn btn-outline-dark">Plots</a>
+        </li>
+        <li>
+          <a href="comparison.html" class="btn btn-outline-dark">Comparisons</a>
+        </li>
+        <li>
+          <a href="WeatherData.html" class="btn btn-outline-dark">Data</a>
+        </li>
+      </ul>
+      <select id="nav-select">
+        <option value="">Plots</option>
+        <option value="tempVis.html">Max Temp</option>
+        <option value="humidVis.html">Humidity</option>
+        <option value="cloudVis.html">Cloudiness</option>
+        <option value="windVis.html">Wind Speed</option>
+      </select>
+      <div class="clearfix"></div>
+    </nav>
+ 
 <!-- Header Row -->
     <div class="row">
     	<div class="col-md-12">
-    		<h1>Lattitude vs. Average Cloudiness</h1>
+    		<h1>Latitude vs. Average Cloudiness</h1>
     	</div>
     </div>
 
 <!--1st Row -->
     <div class="row">
-    	<div class="col-md-4">
-    		<img class="main_image" src="Resources/assets/images/Picture3.png" 
-    		 class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Cloudiness" />
-        </div>
-        <div class="col-md-4">
-            <p>Cloudiness can vary widely across the entire planet, but tends to the extremes of no clouds to heavy overcast with relatively few in the middle.</p>
-		</div>
-    	<div class="col-md-4">
-    		<h3>Visualizations</h3>
-    		<a href="tempVis.html">
+      <div class="col-md-8">
+        <img class="large_image" src="Resources/assets/images/Picture3.png" 
+        class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Cloudiness" />
+      </div>
+        
+      <div class="col-md-4">
+        <h3>Visualizations</h3>
+        <a href="tempVis.html">
           <img class="thumbnail" src="Resources/assets/images/Picture1.png" 
-    		 	class="img-responsive" alt="Dot Plot of City Lattitude versus its Maximum Recorded Temperature" />
-    		</a>
+          class="img-responsive" alt="Dot Plot of City Lattitude versus its Maximum Recorded Temperature" />
+        </a>
         <a href="humidVis.html">
           <img class="thumbnail" src="Resources/assets/images/Picture2.png" 
           class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Humidity" />
@@ -47,11 +70,15 @@
           <img class="thumbnail" src="Resources/assets/images/Picture4.png" 
           class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Wind Speed" />
         </a>
-        <a href="index.html">Comparisons</a><br>
-        <a href="index.html">Data</a><br>
-        <a href="index.html">Home</a>
-		  </div>
-	  </div>
+      </div>
+    </div>
+
+<!--2nd Row -->
+    <div class="row">
+      <div class="col-md-8">
+        <p>This plot shows Max Temperature is lower at the planets poles and increases as you approach the equator.</p>
+      </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

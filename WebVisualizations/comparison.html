@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Comparisons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="Resources/assets/reset.css">
   <link rel="stylesheet" href="Resources/assets/style.css">
@@ -40,57 +40,33 @@
 <!-- Header Row -->
     <div class="row">
     	<div class="col-md-12">
-    		<h1>Latitude vs. X</h1>
+    		<h1>Comparisons</h1>
+        <p>Click any plot to view analysis</p><br>
     	</div>
     </div>
 
 <!--1st Row -->
     <div class="row">
-    	<div class="col-md-4">
-    		<img class="main_image" src="Resources/assets/images/Picture1.png" 
-    		 class="img-responsive" alt="Dot Plot of City Lattitude versus its Maximum Recorded Temperature" />
-        </div>
-        <div class="col-md-4">
-            <p>"This project was to create a random list of 500+ cities from across the globe and conduct an API data call to gather current weather data for those cities. Then clean and analyze the weather data to generate a series of scatter plots and regression models in order to make data based observations about global weather patterns.</p>
-		</div>
-    	<div class="col-md-4">
-    		<h3>Visualizations</h3>
+      <div class="col-md-12">
     		<a href="tempVis.html">
-          		<img class="thumbnail" src="Resources/assets/images/Picture1.png" 
+          		<img class="full_image" src="Resources/assets/images/Picture1.png" 
     		 	class="img-responsive" alt="Dot Plot of City Lattitude versus its Maximum Recorded Temperature" />
     		</a>
 			<a href="humidVis.html">
-          		<img class="thumbnail" src="Resources/assets/images/Picture2.png" 
+          		<img class="full_image" src="Resources/assets/images/Picture2.png" 
           		class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Humidity" />
         	</a>
         	<a href="cloudVis.html">
-          		<img class="thumbnail" src="Resources/assets/images/Picture3.png" 
+          		<img class="full_image" src="Resources/assets/images/Picture3.png" 
           		class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Cloudiness" />
         	</a>
         	<a href="windVis.html">
-          		<img class="thumbnail" src="Resources/assets/images/Picture4.png" 
+          		<img class="full_image" src="Resources/assets/images/Picture4.png" 
           		class="img-responsive" alt="Dot Plot of City Lattitude versus its Average Wind Speed" />
         	</a>
-		</div>
+		  </div>
+    </div>
 	</div>
-<!--2nd Row -->
-    <div class="row">
-    	<div class="col-md-8">
-    		<h5>Design concept:</h5>
-    		<ol>
-				<li>The project begins with generating 1500 random latitude and longitude values and using citypy to determine the nearest cities to those coordinates and appending them to a list (duplicate cities are skipped).</li>
-
-				<li>The program then creates a series of successive API calls to openweathermap.org to collect the weather data for each of the cities into a list (weather_data) - (if a city is not found or is missing key weather data values, it is skipped).</li>
-
-				<li>The list of weather data is read into a dataframe (city_data) and output to cities.csv in the output_data directory.</li>
-
-				<li>Summary data is calculated for the DataFrame and any cities with a humidity above 100% are identified and deleted as a new DataFrame is created (clean_city_data).</li>
-
-				<li>The clean_city_data is plotted into a series of scatter plots of weather variables vs. latitude and analyzed.</li> 
-			</ol>
-		</div>
-	</div>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -30,10 +30,31 @@ h3 {
   width: 144px;
 }
 
+.full_image {
+  padding: 20px;
+  height: 351px;
+  width: 518.4px;
+}
+
+.large_image {
+  padding: 20px;
+  height: 429px;
+  width: 633.6px;
+}
+
 table {
   border-collapse: collapse;
   border: 2px black solid;
   font: 12px sans-serif;
+  background: #fff;
+}
+
+th {
+  border: 1px black solid;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background: #007bff;
 }
 
 td {
@@ -41,14 +62,14 @@ td {
   padding: 5px;
 }
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. */
 .navbar li {
   display: inline-block;
-  padding: 20px;
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
-  background: #fff;
+  background: #f1f1f1;
   border-radius: 3px;
 }
 
@@ -81,7 +102,7 @@ td {
 }
 
 #nav-select {
-  visibility: hidden;
+  visibility: visible;
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
@@ -101,7 +122,7 @@ td {
   }
 
   .navbar ul {
-    visibility: hidden;
+    visibility: visible;
   }
 
   #nav-select {
