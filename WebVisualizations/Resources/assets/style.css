@@ -54,7 +54,12 @@ th {
   padding: 5px;
   text-align: center;
   font-weight: bold;
-  background: #007bff;
+  
+}
+
+thead {
+  background: #000;
+  color: #fff;
 }
 
 td {
@@ -79,28 +84,6 @@ td {
   text-decoration: none;
 }
 
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
-}
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 20px;
-  margin: 0;
-  color: #000;
-  text-align: center;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
 #nav-select {
   visibility: visible;
 }
@@ -115,11 +98,6 @@ td {
    width: 144px;
    height: 97.5px; 
 }
-
-  .post {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
 
   .navbar ul {
     visibility: visible;
