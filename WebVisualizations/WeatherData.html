@@ -9,17 +9,25 @@
   <link rel="stylesheet" href="Resources/assets/reset.css">
   <link rel="stylesheet" href="Resources/assets/style.css">
 </head>
-<body>
 
-  <!-- Our rows function in containers (grid created). -->
+<body>
+  
   <div class="container">
-  <nav class="navbar">
+    <nav class="navbar">
       <ul>
         <li>
           <a href="https://robertjbowen.github.io/Web-Design-Challenge/index.html" class="btn btn-outline-dark">Home</a>
         </li>
         <li>
-          <a href=value for="nav-select" class="btn btn-outline-dark">Plots</a>
+          <div class="dropdown">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button>
+            <div class="dropdown-menu" aria-labelledby="Plots">
+              <a class="dropdown-item" href="tempVis.html">Max Temp</a>
+              <a class="dropdown-item" href="humidVis.html">Humidity</a>
+              <a class="dropdown-item" href="cloudVis.html">Cloudiness</a>
+              <a class="dropdown-item" href="windVis.html">Wind Speed</a>
+            </div>
+          </div>
         </li>
         <li>
           <a href="comparison.html" class="btn btn-outline-dark">Comparisons</a>
@@ -28,14 +36,6 @@
           <a href="WeatherData.html" class="btn btn-outline-dark">Data</a>
         </li>
       </ul>
-      <select id="nav-select">
-        <option value="">Plots</option>
-        <option value="tempVis.html">Max Temp</option>
-        <option value="humidVis.html">Humidity</option>
-        <option value="cloudVis.html">Cloudiness</option>
-        <option value="windVis.html">Wind Speed</option>
-      </select>
-      <div class="clearfix"></div>
     </nav>
     
 <!-- Header Row -->
@@ -46,7 +46,6 @@
       </div>
     </div>
 
-<!--1st Row -->
     <div class="row">
   <table>        
   <thead>
@@ -6777,7 +6776,7 @@
 
     </div>
   </div>
-</div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

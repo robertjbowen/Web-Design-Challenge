@@ -8,18 +8,25 @@
   <link rel="stylesheet" href="Resources/assets/reset.css">
   <link rel="stylesheet" href="Resources/assets/style.css">
 </head>
+
 <body>
 
-  <!-- Our rows function in containers (grid created). -->
   <div class="container">
-
     <nav class="navbar">
       <ul>
         <li>
           <a href="https://robertjbowen.github.io/Web-Design-Challenge/index.html" class="btn btn-outline-dark">Home</a>
         </li>
         <li>
-          <a for="nav-select" class="btn btn-outline-dark">Plots</a>
+          <div class="dropdown">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button>
+            <div class="dropdown-menu" aria-labelledby="Plots">
+              <a class="dropdown-item" href="tempVis.html">Max Temp</a>
+              <a class="dropdown-item" href="humidVis.html">Humidity</a>
+              <a class="dropdown-item" href="cloudVis.html">Cloudiness</a>
+              <a class="dropdown-item" href="windVis.html">Wind Speed</a>
+            </div>
+          </div>
         </li>
         <li>
           <a href="comparison.html" class="btn btn-outline-dark">Comparisons</a>
@@ -28,14 +35,6 @@
           <a href="WeatherData.html" class="btn btn-outline-dark">Data</a>
         </li>
       </ul>
-      <select id="nav-select">
-        <option value="">Plots</option>
-        <option value="tempVis.html">Max Temp</option>
-        <option value="humidVis.html">Humidity</option>
-        <option value="cloudVis.html">Cloudiness</option>
-        <option value="windVis.html">Wind Speed</option>
-      </select>
-      <div class="clearfix"></div>
     </nav>
 
 <!-- Header Row -->

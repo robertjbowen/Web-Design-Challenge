@@ -95,14 +95,17 @@ td {
   }
 
   .main_image {
-   width: 144px;
-   height: 97.5px; 
+   width: 288px;
+   height: 195px; 
 }
 
   .navbar ul {
     visibility: visible;
   }
 
+ .vizbox {
+    visibility: hidden;
+  }
   #nav-select {
     visibility: visible;
   }
