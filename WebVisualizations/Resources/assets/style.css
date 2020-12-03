@@ -1,7 +1,21 @@
 
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Assign background color light gray */
 body {
   background: #f1f1f1;
+}
+
+/* Create flex container to realign divisions as the screen dimensions change */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
 }
 
 h1 {
@@ -17,7 +31,6 @@ h5 {
   font-weight: bold;
 }
 
-/* Giving our navbar some padding and a background color */
 .row {
   padding: 15px;
   background: #fff;
@@ -96,17 +109,23 @@ td {
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
-  .row {
-    padding: 0px;
-  }
-
-  .main_image {
-   width: 576px;
-   height: 390px; 
-  }
-
-  .navbar ul {
-    visibility: visible;
-  }
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
 }
+
+@media all and (max-width: 992px) {
+    .navbar li {
+      margin-right: 2px;
+      margin-left: 2px;
+      color: #007bff;
+    }
+
+    .large_image {
+      padding: 20px;
+      height: 390px;
+      width: 576px;
+    }
+}
+ 
