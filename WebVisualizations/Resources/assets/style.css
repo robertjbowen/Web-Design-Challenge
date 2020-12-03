@@ -13,6 +13,10 @@ h3 {
   color:#007bff;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 /* Giving our navbar some padding and a background color */
 .row {
   padding: 15px;
@@ -22,8 +26,13 @@ h3 {
 .main_image {
    width: 288px;
    height: 195px; 
+   float: left;
+   margin: 5px;
 }
 
+p {
+  text-align: justify;
+}
 .thumbnail {
   padding: 10px;
   height: 97.5px;
@@ -67,10 +76,13 @@ td {
   padding: 5px;
 }
 
+.navbar {
+  align-content: right;
+}
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. */
 .navbar li {
-  display: inline-block;
+  display: inline-block; 
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -89,22 +101,20 @@ td {
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 1000px) {
+@media (max-width: 576px) {
   .row {
-    padding: 10px;
+    padding: 0px;
   }
 
   .main_image {
-   width: 288px;
-   height: 195px; 
+   width: 576px;
+   height: 390px; 
 }
 
   .navbar ul {
     visibility: visible;
   }
 
- .vizbox {
-    visibility: hidden;
   }
   #nav-select {
     visibility: visible;
