@@ -96,11 +96,6 @@ td {
   text-decoration: none;
 }
 
-#nav-select {
-  visibility: visible;
-}
-
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
 @media (max-width: 576px) {
   .row {
     padding: 0px;
@@ -109,14 +104,9 @@ td {
   .main_image {
    width: 576px;
    height: 390px; 
-}
+  }
 
   .navbar ul {
-    visibility: visible;
-  }
-
-  }
-  #nav-select {
     visibility: visible;
   }
 }
