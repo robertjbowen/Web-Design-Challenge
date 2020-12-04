@@ -53,8 +53,9 @@ A side bar navigation is set in a second column (size 4) on the right side to al
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png"/>
     <br>
-    <em>Large Screen_________________________________________________________________________Small Screen</em>
+    <em>Large Screen___________________________________________________________Small Screen</em>
 </p>
+
 ***
 
 ## Vizualization Pages (Temperature, Humidity, Cloudiness, and Wind Speed):
@@ -63,8 +64,13 @@ Each page uses the same template and the naviagtion and side bar attributes from
 
 Each page displays a larger sized image of the data plot with an analysis description below. 
 
-![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture8.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture9.png)
-large screen							Small Screen
+<p>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture8.png"/>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture9.png"/>
+    <br>
+    <em>Large Screen___________________________________________________________Small Screen</em>
+</p>
+
 ***
 
 ## Comparison Page:
@@ -74,8 +80,13 @@ Reuses the naviagtion and side bar attributes from the landing page.
 Enlarges the sidebar thumbnails to allow sideby side comparison. Images are linked using hrefs to allow direct navigation to the detailed visualization pages.
 
 
-![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture10.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture11.png)
-large screen							Small Screen
+<p>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture10.png"/>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture11.png"/>
+    <br>
+    <em>Large Screen___________________________________________________________Small Screen</em>
+</p>
+
 ***
 
 ## Data Page
@@ -85,6 +96,11 @@ Reuses the naviagtion bar attributes from the landing page.
 
 The csv data file used to generate the plots was converted to html format and displayed as a formatted table using bootstrap table formatting in the style.css file.
 
-![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture12.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture13.png)
-large screen							Small Screen
+<p>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture12.png"/>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture13.png"/>
+    <br>
+    <em>Large Screen___________________________________________________________Small Screen</em>
+</p>
+
 ***
