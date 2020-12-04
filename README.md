@@ -39,7 +39,7 @@ The purpose of this challenge is to use html code to create a web interface to d
 
 Topped with a navigation bar allowing navigation to any of 6 sub pages (4 visualization pages, Comparison Page, and a Data Page)
 
-![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture5.png)
+![Navigation Bar with Dropdown Menu](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture5.png)
 
 The page uses bootstrap column (size 8) formatting to display a float image of one of the visualizations and a text description of the Python API Challenge project description and design concept is wrapped around it.
 
