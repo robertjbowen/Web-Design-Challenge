@@ -53,11 +53,8 @@ A side bar navigation is set in a second column (size 4) on the right side to al
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png"/>
     <br>
-    <em>Large Screen								Small Screen</em>
+    <em>Large Screen_________________________________________________________________________Small Screen</em>
 </p>
-
-![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png)
-large screen							Small Screen
 ***
 
 ## Vizualization Pages (Temperature, Humidity, Cloudiness, and Wind Speed):
