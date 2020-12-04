@@ -58,7 +58,7 @@ A side bar navigation is set in a second column (size 4) on the right side to al
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png"/>
     <br>
-    <em>Large Screen___________________________________________________________Small Screen</em>
+    <em>Large Screen_____________________________________________________________Small Screen</em>
 </p>
 
 ***
@@ -73,7 +73,7 @@ Each page displays a larger sized image of the data plot with an analysis descri
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture8.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture9.png"/>
     <br>
-    <em>Large Screen___________________________________________________________Small Screen</em>
+    <em>Large Screen_____________________________________________________________Small Screen</em>
 </p>
 
 ***
@@ -89,7 +89,7 @@ Enlarges the sidebar thumbnails to allow sideby side comparison. Images are link
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture10.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture11.png"/>
     <br>
-    <em>Large Screen___________________________________________________________Small Screen</em>
+    <em>Large Screen_____________________________________________________________Small Screen</em>
 </p>
 
 ***
@@ -105,7 +105,7 @@ The csv data file used to generate the plots was converted to html format and di
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture12.png"/>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture13.png"/>
     <br>
-    <em>Large Screen___________________________________________________________Small Screen</em>
+    <em>Large Screen_____________________________________________________________Small Screen</em>
 </p>
 
 ***
