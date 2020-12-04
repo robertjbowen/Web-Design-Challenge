@@ -51,9 +51,9 @@ A side bar navigation is set in a second column (size 4) on the right side to al
 
 <p>
     <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
-    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png"/>
     <br>
-    <em>Large Screen</em><em>Small Screen</em>
+    <em>Large Screen                                                     </em><em>Small Screen</em>
 </p>
 
 ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png)
