@@ -27,7 +27,7 @@ The purpose of this challenge is to use html code to create a web interface to d
 
 		* assets folder - contains:
 
-			*css style sheets
+			* css style sheets
 
 			* images folder - contains images of the WebPage outputs and the plot images displyed on the pages
 
@@ -39,11 +39,13 @@ The purpose of this challenge is to use html code to create a web interface to d
 
 Topped with a navigation bar allowing navigation to any of 6 sub pages (4 visualization pages, Comparison Page, and a Data Page)
 
+![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture5.png)
+
 The page uses bootstrap column (size 8) formatting to display a float image of one of the visualizations and a text description of the Python API Challenge project description and design concept is wrapped around it.
 
 A side bar navigation is set in a second column (size 4) on the right side to allow the user to select a thumbnail image of any of the 4 visualizations. href links are assigned to each image to allow the user to directly navigate to the selected visualization page.
 
-![alt tag]() ![alt tag]()
+![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png)
 large screen							Small Screen
 ***
 
@@ -53,7 +55,7 @@ Each page uses the same template and the naviagtion and side bar attributes from
 
 Each page displays a larger sized image of the data plot with an analysis description below. 
 
-![alt tag]() ![alt tag]()
+![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture8.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture9.png)
 large screen							Small Screen
 ***
 
@@ -64,7 +66,7 @@ Reuses the naviagtion and side bar attributes from the landing page.
 Enlarges the sidebar thumbnails to allow sideby side comparison. Images are linked using hrefs to allow direct navigation to the detailed visualization pages.
 
 
-![alt tag]() ![alt tag]()
+![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture10.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture11.png)
 large screen							Small Screen
 ***
 
@@ -75,6 +77,6 @@ Reuses the naviagtion bar attributes from the landing page.
 
 The csv data file used to generate the plots was converted to html format and displayed as a formatted table using bootstrap table formatting in the style.css file.
 
-![alt tag]() ![alt tag]()
+![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture12.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture13.png)
 large screen							Small Screen
 ***
