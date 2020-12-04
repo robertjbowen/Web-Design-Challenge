@@ -2,8 +2,11 @@
 
 ## link:  https://robertjbowen.github.io/Web-Design-Challenge/index.html
 
+***
+
 The purpose of this challenge is to use html code to create a web interface to display data and images developed in the Python Challenge repository. The focus is on designing a consistent web design with a navigation bar, buttons, pick lists, selectable images and media query adjustments based on screen size. 
 
+***
 
 ### Documents in this repository are:
 
@@ -44,6 +47,8 @@ Topped with a navigation bar allowing navigation to any of 6 sub pages (4 visual
     <br>
     <em>Navigation Bar with Dropdown Menu</em>
 </p>
+
+***
 
 The page uses bootstrap column (size 8) formatting to display a float image of one of the visualizations and a text description of the Python API Challenge project description and design concept is wrapped around it.
 
