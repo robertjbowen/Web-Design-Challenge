@@ -45,11 +45,16 @@ Topped with a navigation bar allowing navigation to any of 6 sub pages (4 visual
     <em>Navigation Bar with Dropdown Menu</em>
 </p>
 
-![Navigation Bar with Dropdown Menu](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture5.png)
-
 The page uses bootstrap column (size 8) formatting to display a float image of one of the visualizations and a text description of the Python API Challenge project description and design concept is wrapped around it.
 
 A side bar navigation is set in a second column (size 4) on the right side to allow the user to select a thumbnail image of any of the 4 visualizations. href links are assigned to each image to allow the user to directly navigate to the selected visualization page.
+
+<p>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
+    <img src="https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png"/>
+    <br>
+    <em>Large Screen</em><em>Small Screen</em>
+</p>
 
 ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture6.png) ![alt tag](https://github.com/robertjbowen/Web-Design-Challenge/blob/main/WebVisualizations/Resources/assets/images/Picture7.png)
 large screen							Small Screen
